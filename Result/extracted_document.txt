@@ -1,0 +1,5 @@
+Natural Language Processing helps computers understand and analyse human language.
+A language model can identify words, sentences, grammatical roles, and meaningful patterns.
+The research team collected documents and carefully prepared the text for analysis.
+An intelligent application can use these linguistic features for information retrieval,
+text summarisation, sentiment analysis, and many other language technologies.

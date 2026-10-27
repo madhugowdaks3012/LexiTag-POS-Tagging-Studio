@@ -1,0 +1,7 @@
+streamlit
+python-docx
+spacy
+pandas
+plotly
+pdfplumber
+docx

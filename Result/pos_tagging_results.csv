@@ -1,0 +1,65 @@
+Index,Token,Lemma,POS,Fine Tag,Tag Meaning,Dependency,Head,Is Stopword,Is Punctuation
+0,Natural,Natural,PROPN,NNP,"noun, proper singular",compound,Language,No,No
+1,Language,Language,PROPN,NNP,"noun, proper singular",compound,Processing,No,No
+2,Processing,processing,NOUN,NN,"noun, singular or mass",nsubj,helps,No,No
+3,helps,help,VERB,VBZ,"verb, 3rd person singular present",ROOT,helps,No,No
+4,computers,computer,NOUN,NNS,"noun, plural",nsubj,understand,No,No
+5,understand,understand,VERB,VB,"verb, base form",ccomp,helps,No,No
+6,and,and,CCONJ,CC,"conjunction, coordinating",cc,understand,Yes,No
+7,analyse,analyse,PROPN,NNP,"noun, proper singular",compound,language,No,No
+8,human,human,PROPN,NNP,"noun, proper singular",compound,language,No,No
+9,language,language,NOUN,NN,"noun, singular or mass",conj,understand,No,No
+10,.,.,PUNCT,.,"punctuation mark, sentence closer",punct,helps,No,Yes
+12,A,a,DET,DT,determiner,det,model,Yes,No
+13,language,language,NOUN,NN,"noun, singular or mass",compound,model,No,No
+14,model,model,NOUN,NN,"noun, singular or mass",nsubj,identify,No,No
+15,can,can,AUX,MD,"verb, modal auxiliary",aux,identify,Yes,No
+16,identify,identify,VERB,VB,"verb, base form",ROOT,identify,No,No
+17,words,word,NOUN,NNS,"noun, plural",dobj,identify,No,No
+18,",",",",PUNCT,",","punctuation mark, comma",punct,words,No,Yes
+19,sentences,sentence,NOUN,NNS,"noun, plural",conj,words,No,No
+20,",",",",PUNCT,",","punctuation mark, comma",punct,sentences,No,Yes
+21,grammatical,grammatical,ADJ,JJ,"adjective (English), other noun-modifier (Chinese)",amod,roles,No,No
+22,roles,role,NOUN,NNS,"noun, plural",conj,sentences,No,No
+23,",",",",PUNCT,",","punctuation mark, comma",punct,roles,No,Yes
+24,and,and,CCONJ,CC,"conjunction, coordinating",cc,roles,Yes,No
+25,meaningful,meaningful,ADJ,JJ,"adjective (English), other noun-modifier (Chinese)",amod,patterns,No,No
+26,patterns,pattern,NOUN,NNS,"noun, plural",conj,roles,No,No
+27,.,.,PUNCT,.,"punctuation mark, sentence closer",punct,identify,No,Yes
+29,The,the,DET,DT,determiner,det,team,Yes,No
+30,research,research,NOUN,NN,"noun, singular or mass",compound,team,No,No
+31,team,team,NOUN,NN,"noun, singular or mass",nsubj,collected,No,No
+32,collected,collect,VERB,VBD,"verb, past tense",ROOT,collected,No,No
+33,documents,document,NOUN,NNS,"noun, plural",dobj,collected,No,No
+34,and,and,CCONJ,CC,"conjunction, coordinating",cc,collected,Yes,No
+35,carefully,carefully,ADV,RB,adverb,advmod,prepared,No,No
+36,prepared,prepare,VERB,VBD,"verb, past tense",conj,collected,No,No
+37,the,the,DET,DT,determiner,det,text,Yes,No
+38,text,text,NOUN,NN,"noun, singular or mass",dobj,prepared,No,No
+39,for,for,ADP,IN,"conjunction, subordinating or preposition",prep,text,Yes,No
+40,analysis,analysis,NOUN,NN,"noun, singular or mass",pobj,for,No,No
+41,.,.,PUNCT,.,"punctuation mark, sentence closer",punct,collected,No,Yes
+43,An,an,DET,DT,determiner,det,application,Yes,No
+44,intelligent,intelligent,ADJ,JJ,"adjective (English), other noun-modifier (Chinese)",amod,application,No,No
+45,application,application,NOUN,NN,"noun, singular or mass",nsubj,use,No,No
+46,can,can,AUX,MD,"verb, modal auxiliary",aux,use,Yes,No
+47,use,use,VERB,VB,"verb, base form",ROOT,use,No,No
+48,these,these,DET,DT,determiner,det,features,Yes,No
+49,linguistic,linguistic,ADJ,JJ,"adjective (English), other noun-modifier (Chinese)",amod,features,No,No
+50,features,feature,NOUN,NNS,"noun, plural",dobj,use,No,No
+51,for,for,ADP,IN,"conjunction, subordinating or preposition",prep,features,Yes,No
+52,information,information,NOUN,NN,"noun, singular or mass",compound,retrieval,No,No
+53,retrieval,retrieval,NOUN,NN,"noun, singular or mass",pobj,for,No,No
+54,",",",",PUNCT,",","punctuation mark, comma",punct,retrieval,No,Yes
+56,text,text,NOUN,NN,"noun, singular or mass",compound,summarisation,No,No
+57,summarisation,summarisation,NOUN,NN,"noun, singular or mass",appos,retrieval,No,No
+58,",",",",PUNCT,",","punctuation mark, comma",punct,summarisation,No,Yes
+59,sentiment,sentiment,NOUN,NN,"noun, singular or mass",xcomp,use,No,No
+60,analysis,analysis,NOUN,NN,"noun, singular or mass",dobj,sentiment,No,No
+61,",",",",PUNCT,",","punctuation mark, comma",punct,use,No,Yes
+62,and,and,CCONJ,CC,"conjunction, coordinating",cc,use,Yes,No
+63,many,many,ADJ,JJ,"adjective (English), other noun-modifier (Chinese)",amod,technologies,Yes,No
+64,other,other,ADJ,JJ,"adjective (English), other noun-modifier (Chinese)",amod,technologies,Yes,No
+65,language,language,NOUN,NN,"noun, singular or mass",compound,technologies,No,No
+66,technologies,technology,NOUN,NNS,"noun, plural",conj,use,No,No
+67,.,.,PUNCT,.,"punctuation mark, sentence closer",punct,use,No,Yes
